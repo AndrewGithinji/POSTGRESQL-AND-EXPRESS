@@ -1,4 +1,19 @@
+## Creating a Table ##
+
 first_database=# CREATE TABLE table1 (id SERIAL PRIMARY KEY, column1 VARCHAR(255) NOT NULL, column2 INTEGER NOT NULL, column3 DATE, column4 TEXT);
 CREATE TABLE
 first_database=# CREATE TABLE table2 (id SERIAL PRIMARY KEY, column1 VARCHAR(255) NOT NULL, column2 DATE, column3 INTEGER NOT NULL, column4 TEXT);
 CREATE TABLE
+
+// Adding info into first_database //
+
+first_database=# INSERT INTO table1 (column1, column2, column3, column4) VALUES ('Testing out', '2', '2023-01-14', 'Postgre');
+
+// Read the info from first_database //
+
+first_database=# SELECT * FROM table1;
+
+// updating the list //
+
+first_database=# UPDATE table1 SET column2 = 4 WHERE id=1;
+
