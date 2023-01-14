@@ -1,0 +1,4 @@
+first_database=# CREATE TABLE table1 (id SERIAL PRIMARY KEY, column1 VARCHAR(255) NOT NULL, column2 INTEGER NOT NULL, column3 DATE, column4 TEXT);
+CREATE TABLE
+first_database=# CREATE TABLE table2 (id SERIAL PRIMARY KEY, column1 VARCHAR(255) NOT NULL, column2 DATE, column3 INTEGER NOT NULL, column4 TEXT);
+CREATE TABLE
