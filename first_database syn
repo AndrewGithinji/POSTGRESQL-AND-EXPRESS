@@ -17,3 +17,33 @@ first_database=# SELECT * FROM table1;
 
 first_database=# UPDATE table1 SET column2 = 4 WHERE id=1;
 
+// deleting from a Row //
+
+DELETE FROM first_database WHERE id=1;
+
+// LIMIT filter //
+
+SELECT * FROM table1 LIMIT 5;
+
+// BETWEEN selects the values between 2 responses //
+
+SELECT name FROM column1 WHERE column3 BETWEEN '2023-01-01' AND '2023-01-14';
+
+// LIKE identifies content that matches based on patterns //
+
+SELECT name, column4 FROM table1 WHERE name LIKE '%post%';
+
+// checks if a value is or is not NULL // // Used inconjuction with another filter word //
+
+SELECT name, id FROM table1 WHERE column3 IS NULL;
+
+SELECT name, id FROM table1 WHERE column2 IS NOT NULL; 
+
+// returns info on Specified columns //
+
+SELECT name, sighting_date FROM animals WHERE sighting_date BETWEEN '2023-01-01' AND '2023-01-10';
+
+// Return the count Of Specified column //
+
+SELECT COUNT(*) FROM animals WHERE sighting_date BETWEEN '2023-01-01' AND '2023-01-10';
+
