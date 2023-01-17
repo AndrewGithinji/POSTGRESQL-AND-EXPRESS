@@ -4,7 +4,7 @@
 
 Database: full_stack_dev
 Username: full_stack_user
-Password: password123
+
 The database is running on port 3001 in this environment.
 
 With this information, you should be able to create the database file in the Node app that will connect to the database. 
