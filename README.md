@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # In a terminal tab, create and run the database:
 
 switch to the postgres user su postgres
@@ -19,3 +20,8 @@ PATH="$PATH"
 node -v to check that the version is 10 or 12
 install all project dependencies yarn
 to test that it is working, run yarn watch should show an app starting on 0.0.0.0:3000
+=======
+##Databases and SQL##
+
+PostgreSQL (mostly known as just Postgres) database, which is a relational, SQL type database.
+>>>>>>> ecf849756736d96f1eed6094b6792f144afe97bd
